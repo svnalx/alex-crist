@@ -1,14 +1,14 @@
 {
-  "name": "cutx-prefill",
+  "name": "Alex Crist",
   "version": "1.0.0",
-  "description": "Auto Short App with TransUnion IDVision",
+  "description": "My portfolio",
   "scripts": {
     "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Credit-Union-of-Texas/cutx-prefill.git"
+    "url": "git+https://github.com/svnalx/alex-crist.git"
   },
   "author": "Alex Crist",
   "browserslist": [

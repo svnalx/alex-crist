@@ -5,7 +5,7 @@
 const express = require('express');
 const router = express.Router();
 const path = require('path');
-const port = process.env.PORT || 8081;
+const port = process.env.PORT || 8085;
 const app = express();
 const bodyParser = require('body-parser');
 
@@ -14,9 +14,9 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-// test route GET http://localhost:8081/api
+// test route GET http://localhost:8085/api
 router.get('/', function(req, res) {
-    res.json({ message: 'CUTX-Prefill API' });
+    res.json({ message: 'Alex-Crist API' });
 });
 
 // more routes for our API will happen here
