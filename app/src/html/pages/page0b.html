@@ -1,0 +1,39 @@
+<!-- Step 0 Page 0b : Get Started | Prefill -->
+<div id="page0b" class="animate__animated d-none">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-4">
+      <img src="img/icon-otp-mobile.png" class="mx-auto d-block" alt="Secure Access Code - Mobile" />
+    </div>
+    <div class="col-8">
+      <form id="form0b" name="form0b" novalidate="novalidate" action="">
+        <h4>Authenticate Your Request</h4>
+        <p>A text message with your secure access code was sent to <span id="spanPriBoPhone"></span></p>
+        <div class="form-floating">
+          <!-- https://developer.apple.com/documentation/security/password_autofill/enabling_password_autofill_on_an_html_input_element -->
+          <input
+          type="text"
+          class="form-control"
+          id="prefillOTP"
+          name="prefillOTP"
+          placeholder="Enter Your Secure Access Code"
+          aria-required="true"
+          aria-describedby="prefillOTP-error"
+          autocomplete="one-time-code"
+          inputmode="numeric">
+          <label for="prefillOTP"><span class="fa fa-lock input-icon-label"></span> Enter Your Secure Access Code *</label>
+        </div>
+        <span id="prefillOTP-error" class="invalid-feedback"></span>
+    </div>
+  </div>
+  <br />
+  <div class="row align-items-center">
+    <div class="col-6">
+      <button id="page0bBack" type="button" class="btn-tx-blue">Back</button>
+    </div>
+    <div class="col-6">
+      <button id="step0bNext" type="submit" class="btn-tx-blue with-arrow">Authenticate</button>
+    </div>
+  </div>
+  </form>
+</div>
+<!-- / Step 0 Page 0b : Get Started | Prefill -->

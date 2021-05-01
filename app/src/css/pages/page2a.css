@@ -1,0 +1,54 @@
+/*
+ * #page2a
+ */
+#page2a {
+  padding-top:40px;
+}
+#page2a .use-fontawesome {
+  font-family:'Font Awesome 5 Free' !important;
+}
+#page2a h3 {
+  color:var(--dark-grey);
+  font-size:1.2rem;
+  font-weight:bold;
+}
+#page2a #sectPriBo {
+  padding:30px 0;
+  border-bottom:2px solid var(--primary-blue);
+}
+#page2a #sectCoBo {
+  padding:30px 0;
+  border-bottom:2px solid var(--primary-blue);
+}
+#page2a #sectAgreement {
+  padding:30px 0;
+  border-bottom:2px solid var(--primary-blue);
+}
+
+/*
+ * Responsive Styles
+ */
+@media only screen and (max-device-width:576px) {
+  /* BS X-Small*/
+
+}
+@media only screen and (max-device-width:768px) {
+  /* BS Small */
+
+}
+@media only screen and (max-device-width:992px) {
+  /* BS Medium */
+
+}
+@media only screen and (max-device-width:1200px) {
+  /* BS Large */
+
+}
+@media only screen and (max-device-width:1400px) {
+  /* BS X-Large */
+
+}
+@media only screen and (min-device-width:1401px) {
+  /* BS XX-Large */
+
+}

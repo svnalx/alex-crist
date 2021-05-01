@@ -1,0 +1,497 @@
+<!-- Step 2 Page 2a : Review & Confirm | Prefill Results -->
+<div id="page2a" class="animate__animated d-none">
+
+  <form id="form2a" name="form2a" novalidate="novalidate" action="">
+
+    <section class="container justify-content-center p-0" id="sectAmountsAndEmail">
+
+      <div class="row p-0">
+
+        <div class="col-4">
+          <input
+          type="text"
+          class="form-control use-fontawesome"
+          id="desiredAmount"
+          name="desiredAmount"
+          placeholder="&#xf155; Desired Amount"
+          aria-required="true"
+          aria-describedby="desiredAmount-error"
+          maxlength="6"
+          inputmode="numeric">
+          <span id="desiredAmount-error" class="invalid-feedback"></span>
+        </div>
+
+        <div class="col-4">
+          <input
+          type="text"
+          class="form-control use-fontawesome"
+          id="priBoGrossAnnualIncome"
+          name="priBoGrossAnnualIncome"
+          placeholder="&#xf155; Gross Annual Income"
+          aria-required="true"
+          aria-describedby="priBoGrossAnnualIncome-error"
+          maxlength="15"
+          inputmode="numeric">
+          <span id="priBoGrossAnnualIncome-error" class="invalid-feedback"></span>
+        </div>
+
+        <div class="col-4">
+          <input
+          type="text"
+          class="form-control"
+          id="priBoEmail"
+          name="priBoEmail"
+          placeholder="Email Address"
+          aria-required="true"
+          aria-describedby="priBoEmail-error"
+          maxlength="50"
+          inputmode="email">
+          <span id="priBoEmail-error" class="invalid-feedback"></span>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="container justify-content-center" id="sectPriBo">
+
+      <div class="row p-0">
+
+        <div class="col-12 col-md-6">
+          <h3>Welcome <span id="spanPriBoFirstName"></span>! Let's review the details.</h3>
+        </div>
+
+        <div class="col-12 col-md-6 text-end">
+          <a href="javascript:void(0);">Unlock & Update</a>
+        </div>
+
+      </div>
+
+      <div class="row p-0">
+
+        <div class="col-12 col-sm-6">
+          <div class="form-floating">
+            <input
+            type="text"
+            class="form-control"
+            id="priBoFirstName"
+            name="priBoFirstName"
+            placeholder="First Name"
+            aria-required="true"
+            aria-describedby="firstName-error"
+            maxlength="50"
+            inputmode="text"
+            readonly>
+            <label for="priBoFirstName">First Name</label>
+            <span id="priBoFirstName-error" class="invalid-feedback"></span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6">
+          <div class="form-floating">
+            <input
+            type="text"
+            class="form-control"
+            id="priBoLastName"
+            name="priBoLastName"
+            placeholder="Last Name"
+            aria-required="true"
+            aria-describedby="lastName-error"
+            maxlength="50"
+            inputmode="text"
+            readonly>
+            <label for="priBoLastName">Last Name</label>
+            <span id="priBoLastName-error" class="invalid-feedback"></span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row p-0">
+
+        <div class="col-12 col-sm-6">
+          <div class="form-floating">
+            <input
+            type="text"
+            class="form-control"
+            id="priBoAddress1"
+            name="priBoAddress1"
+            placeholder="Address Line 1"
+            aria-required="true"
+            aria-describedby="priBoAddress1-error"
+            maxlength="50"
+            inputmode="text"
+            readonly>
+            <label for="priBoAddress1">Address Line 1</label>
+            <span id="priBoAddress1-error" class="invalid-feedback"></span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6">
+          <div class="form-floating">
+            <input
+            type="text"
+            class="form-control"
+            id="priBoAddress2"
+            name="priBoAddress2"
+            placeholder="Address Line 2"
+            aria-required="true"
+            aria-describedby="priBoAddress2-error"
+            maxlength="50"
+            inputmode="text"
+            readonly>
+            <label for="priBoAddress2">Address Line 2</label>
+            <span id="priBoAddress2-error" class="invalid-feedback"></span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row p-0">
+
+        <div class="col-12 col-sm-4">
+          <div class="form-floating">
+            <input
+            type="text"
+            class="form-control"
+            id="priBoCity"
+            name="priBoCity"
+            placeholder="City"
+            aria-required="true"
+            aria-describedby="priBoCity-error"
+            maxlength="50"
+            inputmode="text"
+            readonly>
+            <label for="priBoCity">City</label>
+            <span id="priBoCity-error" class="invalid-feedback"></span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-4">
+          <div class="form-floating">
+            <input
+            type="text"
+            class="form-control"
+            id="priBoState"
+            name="priBoState"
+            placeholder="State"
+            aria-required="true"
+            aria-describedby="priBoState-error"
+            maxlength="2"
+            inputmode="text"
+            readonly>
+            <label for="priBoState">State</label>
+            <span id="priBoState-error" class="invalid-feedback"></span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-4">
+          <div class="form-floating">
+            <input
+            type="text"
+            class="form-control"
+            id="priBoZip"
+            name="priBoZip"
+            placeholder="Zip"
+            aria-required="true"
+            aria-describedby="priBoZip-error"
+            maxlength="50"
+            inputmode="numeric"
+            readonly>
+            <label for="priBoZip">Zip</label>
+            <span id="priBoZip-error" class="invalid-feedback"></span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row p-0">
+
+        <div class="col-12 col-sm-4">
+          <div class="form-floating">
+            <input
+            type="text"
+            class="form-control"
+            id="priBoSSN"
+            name="priBoSSN"
+            placeholder="Social Security Number"
+            aria-required="true"
+            aria-describedby="priBoSSN-error"
+            maxlength="11"
+            inputmode="text"
+            readonly>
+            <label for="priBoSSN">SSN</label>
+            <span id="priBoSSN-error" class="invalid-feedback"></span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-4">
+          <div class="form-floating">
+            <input
+            type="text"
+            class="form-control"
+            id="priBoDOB"
+            name="priBoDOB"
+            placeholder="Date of Birth"
+            aria-required="true"
+            aria-describedby="priBoDOB-error"
+            maxlength="50"
+            inputmode="text"
+            readonly>
+            <label for="priBoDOB">Date of Birth</label>
+            <span id="priBoDOB-error" class="invalid-feedback"></span>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-4">
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="container justify-content-center" id="sectCoBo">
+
+      <!-- Closed - default -->
+      <div id="coBoClosed" class="row text-center animate__animated">
+        <a href="javascript:void(0);" class="d-inline w-auto mx-auto">Add Co-Borrower</a>
+      </div>
+
+      <!-- Open -->
+      <div id="coBoOpen" class="row justify-content-center d-none animate__animated">
+
+        <div class="row p-0">
+
+          <div class="col-12">
+            <h3>Co-Borrower</h3>
+          </div>
+
+        </div>
+
+        <div class="row p-0">
+
+          <div class="col-12 col-sm-6">
+            <div class="form-floating">
+              <input
+              type="text"
+              class="form-control"
+              id="coBoFirstName"
+              name="coBoFirstName"
+              placeholder="First Name"
+              aria-required="true"
+              aria-describedby="coBoFirstName-error"
+              maxlength="50"
+              inputmode="text">
+              <label for="coBoFirstName">First Name</label>
+              <span id="coBoFirstName-error" class="invalid-feedback"></span>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6">
+            <div class="form-floating">
+              <input
+              type="text"
+              class="form-control"
+              id="coBoLastName"
+              name="coBoLastName"
+              placeholder="Last Name"
+              aria-required="true"
+              aria-describedby="coBoLastName-error"
+              maxlength="50"
+              inputmode="text">
+              <label for="coBoLastName">Last Name</label>
+              <span id="coBoLastName-error" class="invalid-feedback"></span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row p-0">
+
+          <div class="col-12 col-sm-6">
+            <div class="form-floating">
+              <input
+              type="text"
+              class="form-control"
+              id="coBoAddress1"
+              name="coBoAddress1"
+              placeholder="Address Line 1"
+              aria-required="true"
+              aria-describedby="coBoAddress1-error"
+              maxlength="50"
+              inputmode="text">
+              <label for="coBoAddress1">Address Line 1</label>
+              <span id="coBoAddress1-error" class="invalid-feedback"></span>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6">
+            <div class="form-floating">
+              <input
+              type="text"
+              class="form-control"
+              id="coBoAddress2"
+              name="coBoAddress2"
+              placeholder="Address Line 2"
+              aria-required="true"
+              aria-describedby="coBoAddress2-error"
+              maxlength="50"
+              inputmode="text">
+              <label for="coBoAddress2">Address Line 2</label>
+              <span id="coBoAddress2-error" class="invalid-feedback"></span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row p-0">
+
+          <div class="col-12 col-sm-4">
+            <div class="form-floating">
+              <input
+              type="text"
+              class="form-control"
+              id="coBoCity"
+              name="coBoCity"
+              placeholder="City"
+              aria-required="true"
+              aria-describedby="coBoCity-error"
+              maxlength="50"
+              inputmode="text">
+              <label for="coBoCity">City</label>
+              <span id="coBoCity-error" class="invalid-feedback"></span>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4">
+            <div class="form-floating">
+              <input
+              type="text"
+              class="form-control"
+              id="coBoState"
+              name="coBoState"
+              placeholder="State"
+              aria-required="true"
+              aria-describedby="coBoState-error"
+              maxlength="2"
+              inputmode="text">
+              <label for="coBoState">State</label>
+              <span id="coBoState-error" class="invalid-feedback"></span>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4">
+            <div class="form-floating">
+              <input
+              type="text"
+              class="form-control"
+              id="coBoZip"
+              name="coBoZip"
+              placeholder="Zip"
+              aria-required="true"
+              aria-describedby="coBoZip-error"
+              maxlength="50"
+              inputmode="numeric">
+              <label for="coBoZip">Zip</label>
+              <span id="coBoZip-error" class="invalid-feedback"></span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row p-0">
+
+          <div class="col-12 col-sm-4">
+            <div class="form-floating">
+              <input
+              type="text"
+              class="form-control"
+              id="coBoSSN"
+              name="coBoSSN"
+              placeholder="Social Security Number"
+              aria-required="true"
+              aria-describedby="coBoSSN-error"
+              maxlength="11"
+              inputmode="text">
+              <label for="coBoSSN">SSN</label>
+              <span id="coBoSSN-error" class="invalid-feedback"></span>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4">
+            <div class="form-floating">
+              <input
+              type="text"
+              class="form-control"
+              id="coBoDOB"
+              name="coBoDOB"
+              placeholder="Date of Birth"
+              aria-required="true"
+              aria-describedby="coBoDOB-error"
+              maxlength="50"
+              inputmode="text">
+              <label for="coBoDOB">Date of Birth</label>
+              <span id="coBoDOB-error" class="invalid-feedback"></span>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4">
+            <div class="form-floating">
+              <input
+              type="text"
+              class="form-control"
+              id="coBoGrossAnnualIncome"
+              name="coBoGrossAnnualIncome"
+              placeholder="Gross Annual Income"
+              aria-required="true"
+              aria-describedby="coBoGrossAnnualIncome-error"
+              maxlength="50"
+              inputmode="numeric">
+              <label for="coBoGrossAnnualIncome">Gross Annual Income</label>
+              <span id="coBoGrossAnnualIncome-error" class="invalid-feedback"></span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row text-center mt-4">
+
+          <a href="javascript:void(0);" class="d-inline w-auto mx-auto">Remove Co-Borrower</a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="row justify-content-center" id="sectAgreement">
+
+      <div class="col-12">
+        <h3>Agreement for Borrower</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non ante ipsum. Ut ante mi, eleifend luctus augue sed, venenatis placerat urna. Nunc accumsan massa ut arcu consequat vehicula. Nam venenatis sit amet nibh ut eleifend. Mauris mattis nulla non enim dictum, id scelerisque enim consectetur. Ut congue mi ut lorem semper, eget ornare turpis iaculis. Nullam urna lectus, consequat non finibus a, rutrum sed lorem. Etiam est ante, imperdiet varius consequat id, auctor vitae velit. Aenean tempor eros odio, eu blandit orci vehicula at. Aliquam ultrices risus quis dignissim sodales. Donec fringilla felis vitae fermentum scelerisque. In vestibulum, purus ut sodales consectetur, lectus augue commodo nulla, et facilisis leo augue id leo. Nunc nisl sem, elementum vitae turpis non, pretium mattis nisl. Aenean et tristique nisi. Suspendisse convallis tellus quis convallis malesuada. Proin eu justo ac massa ultrices lobortis sit amet at nulla.</p>
+        <p>Nunc commodo nulla ac eros tempus, sit amet auctor tortor consectetur. Quisque sed dolor non ipsum tincidunt malesuada elementum non libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce eu rutrum odio, ut aliquam sem. Etiam tempus nulla ac leo vehicula, sit amet bibendum mi ornare. Maecenas vitae euismod tortor. Nam ornare ultrices purus auctor gravida. Sed interdum faucibus ornare. Nullam mauris nisl, volutpat convallis efficitur eget, commodo eget tellus.</p>
+        <p>Donec vel nisi eros. Proin posuere risus eget velit placerat varius. Suspendisse sed tortor tristique, tincidunt leo eget, varius ante. Aliquam tristique pretium massa a semper. Vivamus a odio sem. Proin luctus semper arcu vitae euismod. Donec et nisi massa.</p>
+        <p>Aliquam facilisis nisi id urna consequat, pulvinar vehicula magna dictum. Aenean massa magna, egestas in sodales sit amet, eleifend sit amet nisi. Donec consequat suscipit lacus sit amet tincidunt. Sed quis justo lacinia risus imperdiet blandit. Praesent consectetur nunc sit amet tristique tempus. Aenean cursus malesuada malesuada. Donec hendrerit nisl sem, sit amet ultricies velit porttitor laoreet. Sed non ligula sapien. Suspendisse laoreet pharetra porta.</p>
+        <p>Donec semper malesuada consequat. Nulla facilisi. Pellentesque sodales tincidunt mauris, et lobortis nisl. Integer vel faucibus enim. Phasellus sodales enim nunc, ac auctor justo imperdiet nec. Donec odio risus, aliquam in dignissim vel, auctor et nisl. Vestibulum ac feli</p>
+      </div>
+
+    </section>
+
+    <section class="row justify-content-center">
+
+      <div class="col-12">
+        <button id="page2aBack" type="button" class="btn-tx-blue">Back</button>
+        <button id="page2aNext" type="submit" class="btn-tx-blue with-arrow">Continue</button>
+      </div>
+
+    </section>
+
+  </form>
+
+</div>
+
+<script>
+document.getElementById('appInfoLead').style.display='none';
+</script>
+<!-- / Step 2 Page 2a : Review & Confirm | Prefill Results -->

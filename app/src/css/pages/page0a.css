@@ -1,0 +1,143 @@
+/*
+ * #page0a
+ */
+#page0a #colSsnLast4 input {
+  letter-spacing:21px;
+  width:169px;
+  padding-left:8px;
+  border:0;
+  background-image:url(/img/ssn-underlines.png);
+  background-size:112px 2px;
+  background-position:0 bottom;
+  background-repeat:no-repeat;
+}
+#page0a #colSsnLast4 input:focus {
+  background-image:url(/img/ssn-underlines-focus.png);
+  border:0;
+}
+#page0a #colSsnLast4 input.is-valid {
+  border:0;
+  background-size:175px 58px;
+  background-image:url(/img/ssn-underlines-valid.png);
+}
+#page0a .form-floating > .form-control ~ label {
+  opacity:1;
+  transform:scale(.85) translateY(-.5rem) translateX(.15rem);
+}
+#page0a #rowPrefillOrManual .card {
+  box-shadow:0 0 .75rem rgba(0,0,0,.1);
+  border:0;
+  background:var(--white);
+  height:335px;
+}
+#page0a #rowPrefillOrManual .card-body {
+  background:var(--white);
+  padding:1rem 1.5rem 2rem 1.5rem;
+}
+#page0a #rowPrefillOrManual .selected-shadow {
+  box-shadow:0 0 .75rem var(--shadow-blue);
+}
+#page0a #rowPrefillOrManual .recommended {
+  display:block;
+  width:160px;
+  color:var(--white);
+  background-color:var(--primary-blue);
+  text-align:center;
+  font-weight:400;
+  padding:8px 0;
+  position:relative;
+  left:-24px;
+}
+#page0a #rowPrefillOrManual h2 {
+  font-weight:700;
+  font-size:1.35rem;
+  margin:1.25rem 0;
+}
+#page0a #rowPrefillOrManual h2 + p {
+  color:var(--medium-grey);
+  font-size:1rem;
+  font-weight:400;
+}
+#page0a #rowPrefillOrManual .row.text-center.m-0.p-0 {
+  height:45px;
+  line-height:42px;
+  background:var(--light-light-grey);
+  background:var(--gradient-light-grey-horizontal);
+}
+#page0a #rowPrefillOrManual .row.text-center.m-0.p-0.selected-bg {
+  background:var(--light-light-blue);
+  background:var(--gradient-light-blue-horizontal);
+}
+#page0a #rowPrefillOrManual input[type=radio] {
+  float:none;
+  display:inline-block;
+  width:2rem;
+  height:2rem;
+  border:1px solid var(--medium-grey);
+}
+#page0a #rowPrefillOrManual input[type=radio]:checked {
+  background-color:var(--primary-blue);
+  background-image:url(/img/icon-checkmark.svg);
+  background-size:1rem;
+}
+#page0a #cardManual h2 {
+  margin-top:calc(1.25rem + 40px);
+}
+#coBoSwitchContainer {
+  display:inline-block;
+  position:relative;
+  top:4px;
+  margin-left:4px;
+}
+input[name=coBoSwitch] {
+  width:36px;
+  height:20px;
+  background:var(--light-light-grey);
+  border:0;
+  border-radius:34px;
+  background-image:url(/img/icon-circle-stroked.png);
+  background-repeat:no-repeat;
+  background-position:center left;
+}
+input[name=coBoSwitch]:checked {
+  background-color:var(--primary-blue);
+  background-image:url(/img/icon-circle.png);
+  background-position:center right;
+}
+
+
+/*
+ * Responsive Styles
+ */
+@media only screen and (max-device-width:576px) {
+  /* BS X-Small*/
+
+}
+@media only screen and (max-device-width:768px) {
+  /* BS Small */
+  #cardMain > .card-body {
+    padding:1rem;
+  }
+}
+@media only screen and (max-device-width:992px) {
+  /* BS Medium */
+
+}
+@media only screen and
+(max-device-width:888px) {
+  #rowNav .nav-title {
+    font-size:1.1rem;
+  }
+}
+@media only screen and (max-device-width:1200px) {
+  /* BS Large */
+
+}
+@media only screen and (max-device-width:1400px) {
+  /* BS X-Large */
+
+}
+@media only screen and (min-device-width:1401px) {
+  /* BS XX-Large */
+
+}

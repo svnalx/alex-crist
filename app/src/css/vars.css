@@ -1,0 +1,26 @@
+:root {
+  --primary-blue:#006ca7;
+  --light-blue:#0bb5ff;
+  --light-light-blue:#e5f0f7;
+  --shadow-blue:rgba(0,108,167,.3);
+  --dark-blue:#014576;
+  --gradient-light-blue-horizontal:linear-gradient(
+    90deg,
+    rgba(229,240,247,1) 0%,
+    rgba(244,249,251,1) 50%,
+    rgba(229,240,247,1) 100%);
+  --white:#ffffff;
+  --black:#000000;
+  --dark-grey:#212121;
+  --medium-grey:#6b6b6b;
+  --light-grey:#d6d9db;
+  --light-light-grey:#e9e9e9;
+  --gradient-light-grey-horizontal:linear-gradient(
+    90deg,
+    rgba(233,233,233,1) 0%,
+    rgba(248,248,248,1) 50%,
+    rgba(233,233,233,1) 100%);
+  --green:#80be2a;
+  --orange:#ed841c;
+  --source-sans:'Source Sans Pro', sans-serif;
+}

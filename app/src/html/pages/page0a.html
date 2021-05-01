@@ -1,0 +1,95 @@
+<!-- Step 0 Page 0a : Get Started | Application Option -->
+<div id="page0a" class="animate__animated animate__fadeInUp">
+  <form id="form0a" name="ShortAppPrefill" novalidate="novalidate" action="">
+    <input type=hidden id="utm_campaign" name="utm_campaign" value="" />
+    <input type=hidden id="utm_source" name="utm_source" value="" />
+    <input type=hidden id="utm_medium" name="utm_medium" value="" />
+    <input type=hidden id="utm_term" name="utm_term" value="" />
+    <input type=hidden id="utm_content" name="utm_content" value="" />
+    <div class="row justify-content-between gx-5">
+      <div id="colSsnLast4" class="col-12 col-md-6">
+        <div class="form-floating">
+          <input
+          type="text"
+          class="form-control mx-auto me-0 default"
+          id="priBoSSNLast4"
+          name="priBoSSNLast4"
+          placeholder="Last 4 Digits of Social Security Number (SSN)"
+          aria-required="true"
+          aria-describedby="priBoSSNLast4-error"
+          maxlength="4"
+          inputmode="numeric">
+          <label for="priBoSSNLast4"><span class="fas fa-lock input-icon-label"></span> Last 4 Digits of Social Security Number *</label>
+        </div>
+        <span id="priBoSSNLast4-error" class="invalid-feedback"></span>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="form-floating">
+          <input
+          type="tel"
+          class="form-control"
+          id="priBoPhone"
+          name="priBoPhone"
+          placeholder="Phone Number"
+          aria-required="true"
+          aria-describedby="priBoPhone-error"
+          inputmode="tel">
+          <label for="priBoPhone"><span class="fas fa-phone input-icon-label"></span> Phone Number *</label>
+        </div>
+        <span id="priBoPhone-error" class="invalid-feedback"></span>
+      </div>
+    </div>
+    <br />
+    <div class="row justify-content-between gx-5" id="rowPrefillOrManual">
+      <div class="col-12 col-md-6">
+        <label for="applicationPrefill" class="w-100">
+          <div class="card selected-shadow" id="cardPrefill">
+            <div class="card-body">
+              <span class="recommended">Recommended</span>
+              <h2>Apply Fast & Secure</h2>
+              <p>By clicking "Continue," you authorize your mobile service provider to authenticate your mobile number to deliver the services you requested from Credit Union of Texas. See our <a href="https://www.cutx.org/about-us/disclosures-and-policies/privacy-policy" target="_blank">Privacy Policy</a> for how we treat your data.</p>
+            </div>
+            <div class="row text-center m-0 p-0 selected-bg" id="rowPrefillChoice">
+              <div class="col-12">
+                <div class="align-middle text-center px-0 mx-0">
+                  <input class="form-check-input m-0 align-middle" type="radio" name="applicationOption" id="applicationPrefill" value="Prefill" checked>
+                </div>
+              </div>
+            </div>
+          </div>
+        </label>
+      </div>
+      <div class="col-12 col-md-6">
+        <label for="applicationManual" class="w-100">
+          <div class="card" id="cardManual">
+            <div class="card-body">
+              <h2>Manually</h2>
+              <p>I'd rather complete my application manually.</p>
+            </div>
+            <div class="row text-center m-0 p-0" id="rowManualChoice">
+              <div class="col-12">
+                <div class="align-middle px-0 mx-0">
+                  <input class="form-check-input m-0 align-middle" type="radio" name="applicationOption" id="applicationManual" value="Manual">
+                </div>
+              </div>
+          </div>
+        </div>
+      </label>
+    </div>
+  </div>
+    <div class="row align-items-start px-4 mt-5 gx-5 align-items-center justify-content-between">
+      <div class="col-md-6 px-0">
+        <span>Are you applying with a coborrower?</span>
+        <span style="margin-left:10px;">No</span>
+        <div class="form-check form-switch" id="coBoSwitchContainer">
+          <input class="form-check-input" type="checkbox" name="coBoSwitch">
+        </div>
+        <span>Yes</span>
+      </div>
+      <div class="col-md-6 px-0 text-end">
+        <button id="page0aNext" type="submit" class="btn-tx-blue with-arrow">Continue</button>
+      </div>
+    </div>
+  </form>
+</div>
+<!-- / Step 0 Page 0a : Get Started | Application Option -->
